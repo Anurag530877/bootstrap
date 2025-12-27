@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple E-Commerce</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .hero {
+      background: #f8f9fa;
+      padding: 80px 0;
+      text-align: center;
+    }
+    .product-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .testimonial {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<!-- 1. Header / Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">ShopNow</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="form.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- 2. Hero Banner -->
+<section class="hero">
+  <div class="container">
+    <h1>Welcome to ShopNow</h1>
+    <p>Your one-stop shop for everything awesome.</p>
+    <a href="#" class="btn btn-primary mt-3">Start Shopping</a>
+  </div>
+</section>
+<!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="container my-5">
+  <h2 class="mb-4 text-center">Featured Human-Centered Products</h2>
+  
+  <div id="humanProductCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="RSO4034_1_40cd841c-11dc-4c78-ab85-bfad034e31fe.webp" class="card-img-top" alt="Skincare Kit">
+              <div class="card-body text-center">
+                <h5 class="card-title">Organic Skincare Kit</h5>
+                <p class="card-text">$29.99</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-none d-md-block">
+            <div class="card">
+              <img src="RSO4102_1_c0a68240-77e5-4003-8465-bff2bb2280a7.webp" class="card-img-top" alt="Running Shoes">
+              <div class="card-body text-center">
+                <h5 class="card-title">Running Shoes</h5>
+                <p class="card-text">$79.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="RSO4102_1_c0a68240-77e5-4003-8465-bff2bb2280a7.webp" class="card-img-top" alt="Yoga Mat">
+              <div class="card-body text-center">
+                <h5 class="card-title">Eco-Friendly Yoga Mat</h5>
+                <p class="card-text">$34.99</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-none d-md-block">
+            <div class="card">
+              <img src="RSO4034_1_40cd841c-11dc-4c78-ab85-bfad034e31fe.webp" class="card-img-top" alt="Winter Jacket">
+              <div class="card-body text-center">
+                <h5 class="card-title">Stylish Winter Jacket</h5>
+                <p class="card-text">$99.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#humanProductCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#humanProductCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+<!-- 3. Product Categories -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Shop by Category</h2>
+  <div class="row text-center">
+    <div class="col-md-3"><div class="p-3 border bg-warning">Men</div></div>
+    <div class="col-md-3"><div class="p-3 border bg-warning">Women</div></div>
+    <div class="col-md-3"><div class="p-3 border bg-warning">Electronics</div></div>
+    <div class="col-md-3"><div class="p-3 border bg-warning">Home</div></div>
+  </div>
+</section>
+
+<!-- 4. Featured Products -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Featured Products</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card product-card">
+        <img src="RSO4034_1_40cd841c-11dc-4c78-ab85-bfad034e31fe.webp" width="300px" class="card-img-top" alt="Product">
+        <div class="card-body">
+          <h5 class="card-title">Product 1</h5>
+          <p class="card-text">$49.99</p>
+          <a href="#" class="btn btn-sm btn-outline-primary">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card product-card">
+        <img src="RSO4102_1_c0a68240-77e5-4003-8465-bff2bb2280a7.webp" class="card-img-top" alt="Product">
+        <div class="card-body">
+          <h5 class="card-title">Product 2</h5>
+          <p class="card-text">$29.99</p>
+          <a href="#" class="btn btn-sm btn-outline-primary">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card product-card">
+        <img src="RSO4034_1_40cd841c-11dc-4c78-ab85-bfad034e31fe.webp" class="card-img-top" alt="Product">
+        <div class="card-body">
+          <h5 class="card-title">Product 3</h5>
+          <p class="card-text">$89.99</p>
+          <a href="#" class="btn btn-sm btn-outline-primary">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. About Us -->
+<section class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">About Us</h2>
+    <p class="text-center mx-auto" style="max-width: 700px;">
+      ShopNow is a simple, user-friendly online shopping experience with quality products and affordable prices. 
+      From clothing to gadgets, we bring everything to your doorstep.
+    </p>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<footer class="bg-danger text-white py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <div class="row text-center text-md-start">
+      
+      <div class="col-md-3 mb-4">
+        <h5>Email</h5>
+        <p><a href="mailto:support@yourstore.com" class="text-white text-decoration-none">
+          <i class="fas fa-envelope me-2"></i>support@yourstore.com
+        </a></p>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h5>Phone</h5>
+        <p><a href="tel:+1234567890" class="text-white text-decoration-none">
+          <i class="fas fa-phone me-2"></i>+1 (234) 567-890
+        </a></p>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h5>Address</h5>
+        <p><i class="fas fa-map-marker-alt me-2"></i>123 Fashion Ave, NY, USA</p>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h5>Follow Us</h5>
+        <div class="d-flex justify-content-center justify-content-md-start">
+          <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<!-- 6. Testimonials -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">What Our Customers Say</h2>
+  <div class="row text-center">
+    <div class="col-md-4 testimonial">
+      <p>"Amazing quality and super fast delivery!"</p>
+      <small>- Sarah</small>
+    </div>
+    <div class="col-md-4 testimonial">
+      <p>"Best customer service I've experienced."</p>
+      <small>- Mike</small>
+    </div>
+    <div class="col-md-4 testimonial">
+      <p>"My go-to store for gifts and more."</p>
+      <small>- Aisha</small>
+    </div>
+  </div>
+</section>
+
+<!-- 7. Footer -->
+<footer class="bg-dark text-white text-center py-4">
+  <p>&copy; 2025 ShopNow. All rights reserved.</p>
+  <p>Follow us:
+    <a href="#" class="text-white text-decoration-none ms-2">Facebook</a> |
+    <a href="#" class="text-white text-decoration-none ms-2">Instagram</a> |
+    <a href="#" class="text-white text-decoration-none ms-2">Twitter</a>
+  </p>
+</footer>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

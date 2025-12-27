@@ -1,0 +1,230 @@
+.text{
+    color: #5fcf80;
+}
+/*fade-in-effact*/
+.col-md-4:hover .card{
+    animation:fadein 0.5s ease-in-out
+}
+@keyframes fadein{
+   0%{
+    transform: translatey(50px);
+   }
+  100%{
+    transform: translatey(0px);
+   }
+    
+}
+
+body,.col-md-3:hover{
+    animation:fadeinright 1.5s ease-in-out;
+    animation-iteration-count: 1;
+    
+}
+@keyframes fadeinright{
+    0%{opacity:0;}
+    100%{opacity:1;}
+    
+}
+
+
+
+ 
+ .nav-link{
+    color: black;
+    font-size: 17px;
+    display: block;
+    
+}
+.topnav,.nav-link:hover{
+    color: #5fcf80;
+}
+.nav-link:hover{
+    background: rgb(190, 223, 7);
+    color: white;
+}
+
+.banner{
+   background-image: linear-gradient(rgba(1,1,1,.5),rgba(1,1,1,.5)),url(group3.avif);
+   background-size: cover;
+   height: 500px;
+   padding: 80px 0px;
+   display: flex;
+   align-items: center;
+}
+.bs{
+    background: none;
+}
+.txt1{
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+}
+.abc{
+    list-style-image: url(bullets.png);
+}
+.text1{
+    color: green;
+    align-items: center;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+}
+.text2{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    background: green;
+}
+.fa-chart-simple,.fa-diamond,.fa-burger{
+    font-size: 70pt;
+}
+.fa-chart-simple:hover,.fa-diamond:hover,.fa-burger:hover{
+    background:#5fcf80;
+}
+.frame{
+    text-align: center;
+}
+.cont{
+    background: green;
+
+}
+.btn2{
+    background: linear-gradient(rgba(223, 199, 199, 0.2),rgba(123,199,199,.2));
+    border: none;
+    text-align: end;
+
+}
+.cen{
+    text-align: center;
+}
+
+.text3{
+    font-size: 30pt;
+    font-weight: bold;
+    color: black;
+}
+.web1{
+    background: rgb(52, 161, 52);
+    border-radius: 3px;
+    color: white;
+    
+}
+.web2{
+    text-align: end;
+}
+.info{
+    background-image: url(pexels-cottonbro-6804595.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 50px;
+    border-radius: 80%;
+}
+.info2{
+    background-image: url(pexels-italo-melo-881954-2379005.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 50px;
+    border-radius: 80%;
+}
+.info3{
+    background-image: url(pexels-sulimansallehi-1484771.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 50px;
+    border-radius: 80%;
+}
+.fa-user,.fa-heart{
+    font-size: 15px;
+    
+  
+    
+    
+}
+.user{
+    text-align:center;
+
+
+}
+.pro{
+    background-image: url(pexels-sulimansallehi-1484771.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    height: 300px;
+}
+.pro1{
+    background-image: url(pexels-yankrukov-8867276.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    height: 300px;
+}
+.pro2{
+    background-image: url(pexels-sebastian-715546.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    height: 300px;
+}
+.ltd{
+    background-image: url(web\ developer.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    height: 300px;
+}
+.ltd1{
+    background-image: url(tradding.webp);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    height: 300px;
+}
+.ltd2{
+    background-image: url(web.webp);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    height: 300px;
+}
+.about{
+    text-align: center;
+}
+.fa-facebook,.fa-instagram,.fa-linkedin,.fa-xmark{
+    font-size: 15px;
+    color: gray;
+}
+.a,.b,.c,.d{
+    font-size: 20pt;
+    color: none;
+    border: 1px solid gray;
+    border-radius: 90%;
+}
+.fun{
+    background: white;
+    border-radius: 30px;
+    text-align: end;
+}
+.btn{
+    background: #5fcf80;
+    color: white;
+}
+.btn:hover{
+    background: black;
+    color: white;
+}
+.fun2{
+    text-align:center;
+}
+.last{
+    border-radius: 70%;
+
+}
+
+
+
+ 
+ 

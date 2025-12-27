@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mentor</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <style>
+    body {
+      padding-top: 80px;
+    }
+    .navbar-nav .nav-link {
+      color: white;
+    }
+    .navbar {
+      background-color: #dc3545;
+    }
+    .text-white-50 {
+      color: rgba(255, 255, 255, 0.7);
+    }
+     body {
+      background-color: #f9f9f9;
+    }
+    .blog-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .post-card {
+      margin-bottom: 2rem;
+    }
+    .post-img {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Mentor</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Trainers</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">MERN</a></li>
+              <li><a class="dropdown-item" href="#">PHP Developer</a></li>
+              <li><a class="dropdown-item" href="#">Python</a></li>
+              <li><a class="dropdown-item" href="#">Java</a></li>
+              <li><a class="dropdown-item" href="#">Web Designing</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Megamenu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Content</a></li>
+          <li class="nav-item">
+            <button class="btn btn-outline-light rounded-pill">Get Started</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner Section -->
+  <section class="container-fluid bg-dark text-white py-5 banner">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 ">
+          <h1>Learning Today, <br>Leading Tomorrow</h1>
+          <p class="text-white-50">We are a team of talented designers making websites with Bootstrap.</p>
+          <button class="btn btn-outline-light rounded-pill px-4">Get Started</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="container py-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Voluptatem dignissimos provident quasi corporis</h2>
+        <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</em></p>
+        <ul>
+          <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+          <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+          <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</li>
+        </ul>
+        <button class="btn btn-danger rounded-pill px-4">Read More</button>
+      </div>
+      <div class="col-md-6">
+        <img src="pexels-italo-melo-881954-2379005.jpg" width="400px"height="400px" alt="Team Image" class="img-fluid" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="bg-light py-4">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-3"><h3>1232</h3><p>Classes</p></div>
+        <div class="col-md-3"><h3>64</h3><p>Courses</p></div>
+        <div class="col-md-3"><h3>42</h3><p>Events</p></div>
+        <div class="col-md-3"><h3>1232</h3><p>Students</p></div>
+      </div>
+    </div>
+  </section>
+  
+ 
+
+
+  <!-- Header -->
+  <header class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <h1>My Blog</h1>
+      <p class="lead">Simple thoughts. Simple blog.</p>
+    </div>
+  </header>
+
+  <!-- Blog Posts -->
+  <main class="container mt-5">
+    <div class="row">
+      
+      <!-- Post 1 -->
+      <div class="col-md-4">
+        <div class="card post-card">
+          <img src="pexels-yankrukov-8867276.jpg" class="card-img-top post-img" alt="Blog image">
+          <div class="card-body">
+            <h5 class="card-title">Blog Post Title 1</h5>
+            <p class="card-text">This is a short summary of the blog post. You can write a teaser here.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Post 2 -->
+      <div class="col-md-4">
+        <div class="card post-card">
+          <img src="pexels-sebastian-715546.jpg" class="card-img-top post-img" alt="Blog image">
+          <div class="card-body">
+            <h5 class="card-title">Blog Post Title 2</h5>
+            <p class="card-text">This is a short summary of another blog post. Just a little intro goes here.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Post 3 -->
+      <div class="col-md-4">
+        <div class="card post-card">
+          <img src="pexels-italo-melo-881954-2379005.jpg" width="100%" class="card-img-top post-img" alt="Blog image">
+          <div class="card-body">
+            <h5 class="card-title">Blog Post Title 3</h5>
+            <p class="card-text">Yet another teaser text for your third blog post in the row.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+
+
+  <!-- ... (additional fixed sections like cards, courses, trainers, footer) ... -->
+
+  <!-- Footer -->
+  <footer class="bg-light text-dark py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Mentor</h5>
+          <p>A108 Adam Street<br>New York, NY 535022</p>
+          <p><strong>Phone:</strong> +1 5589 55488 55<br><strong>Email:</strong> info@example.com</p>
+        </div>
+        <div class="col-md-2">
+          <h6>Useful Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-dark nav-link">Home</a></li>
+            <li><a href="#" class="text-dark nav-link">About Us</a></li>
+            <li><a href="#" class="text-dark nav-link">Services</a></li>
+            <li><a href="#" class="text-dark nav-link">Terms of Service</a></li>
+            <li><a href="#" class="text-dark nav-link">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h6>Our Services</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-dark nav-link">Web Design</a></li>
+            <li><a href="#" class="text-dark nav-link">Web Development</a></li>
+            <li><a href="#" class="text-dark nav-link">Marketing</a></li>
+            <li><a href="#" class="text-dark nav-link">Graphic Design</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6>Newsletter</h6>
+          <p>Subscribe to get the latest updates.</p>
+          <form class="d-flex">
+            <input type="email" class="form-control rounded-start" placeholder="Email">
+            <button class="btn btn-danger rounded-end">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <hr />
+      <p class="text-center">© 2025 <strong>Mentor</strong>. All rights reserved. Designed by <a href="#">BootstrapMade</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
